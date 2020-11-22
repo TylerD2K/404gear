@@ -3,10 +3,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* make image responsive at max 400 px */
-.responsive {
+/* make logo responsive at max 400 px */
+.responsivelogo {
   width: 100%;
   max-width: 400px;
+  height: auto;
+}
+
+/* cap search icon width to 9px*/
+.searchicon {
+  width: 100%;
+  max-width: 9px;
   height: auto;
 }
 
