@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* make image responsive at max 400 px */
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #00121e;
+  text-align: center
+}
+
+/* Navigation links */
+.topnav a {
+  float: center;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Add a background color on mouse-over */
+.topnav a:hover {
+  background-color: #112E46;
+  color: black;
+}
+
+/* Style the current/active link */
+.topnav a.active {
+  background-color: #112E46;
+  color: white;
+}
+
+/* search container allign left */
+.topnav .search-container {
+  float: left;
+}
+
+/* text input */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+/* backgreound styling */
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #727272;
+  font-size: 17px;
+
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav .search-container button:hover {
+  background: #ccc;
+}
