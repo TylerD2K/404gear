@@ -15,6 +15,7 @@ body {
   width: 100%;
   max-width: 9px;
   height: auto;
+  transform: rotate(40deg);
 }
 
 /* Add a black background color to the top navigation bar */
@@ -36,13 +37,11 @@ body {
 /* Add a background color on mouse-over */
 .topnav a:hover {
   background-color: #112E46;
-  color: black;
 }
 
 /* Style the current/active link */
 .topnav a.active {
   background-color: #112E46;
-  color: white;
 }
 
 /* search container allign left */
