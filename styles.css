@@ -29,9 +29,11 @@ body {
 .topnav a {
   float: center;
   text-align: center;
-  padding: 14px 16px;
+  /* HELP!!!! padding doesn't apply to top */
+  padding: 16px 16px 16px 16px;
   text-decoration: none;
   font-size: 24px;
+  left: 80%;       
 }
 
 /* Add a background color on mouse-over */
@@ -53,8 +55,10 @@ body {
 .topnav input[type=text] {
   padding: 6px;
   margin-top: 8px;
+  margin-left: 80px;
   font-size: 17px;
   border: none;
+  background: #727272
 }
 
 /* backgreound styling */
@@ -63,14 +67,23 @@ body {
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #727272;
   font-size: 17px;
-
   border: none;
   cursor: pointer;
+  background-color: #ADADAD;
 }
 
 /* Style the search box inside the navigation bar */
 .topnav .search-container button:hover {
   background: #ccc;
+}
+
+/* placeholder text colour */
+::placeholder {
+  color: #E7E7E7;
+}
+
+/* round button */
+.roundbutton {
+  border-radius: 50%;
 }
