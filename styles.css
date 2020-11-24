@@ -91,3 +91,10 @@ body {
 .roundbutton {
   border-radius: 50%;
 }
+
+/* header container */
+.headbar{
+  overflow: hidden;
+  background-color: #00121e;
+  text-align: center
+}
