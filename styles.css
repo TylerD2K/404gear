@@ -29,11 +29,15 @@ body {
 .topnav a {
   float: center;
   text-align: center;
-  /* HELP!!!! padding doesn't apply to top */
-  padding: 16px 16px 16px 16px;
+  padding: 16px;
   text-decoration: none;
   font-size: 24px;
   left: 80%;       
+}
+
+  /* padding doesn't apply to top so declared outside*/
+.toppad{
+  padding-top: 5px;
 }
 
 /* Add a background color on mouse-over */
