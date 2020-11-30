@@ -99,7 +99,8 @@ body {
   text-align: center
 }
 
-.container {
+/* bigger container for melody page dividing to 2 */
+.conatinerbigmelody {
   position: relative;
   text-align: center;
   display: flex;
@@ -108,10 +109,25 @@ body {
   justify-content: space-evenly;
   align-items: center;
   align-content: space-around;
+  overflow: auto; 
 }
 
+/* smaller container column */
+.containermelody {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  overflow: auto;
+}
+
+/* item property */
 .item{
   order: 1;
   flex-basis: auto;
-  flex: 1 1 0px
+  flex: 1 1 50%
 }
