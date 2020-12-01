@@ -1,4 +1,5 @@
-body {
+/* remove margin */
+body, main {
   margin: 0;
 }
 
@@ -23,14 +24,14 @@ h2 {
   font-weight: normal;
 }
 
-/* consistent with styleguide but we will not use */
-#navigationtext {
-  font-size: 18px;
-  font-family: '8BITWONDERNominal';
-  font-weight: normal;
+/* chaange made, inconsistent w/ styleguide */
+#linktext {
+  font-size: 24px;
+  font-family: 'Inconsolata';
+  font-weight: normal;  
 }
 
-#contenttext {
+p {
   font-size: 18px;
   font-family: 'Inconsolata';
   font-weight: bold;
@@ -266,18 +267,17 @@ form {
 /* bigger container for melody page dividing to 2 */
 .conatinerbigmelody {
   position: relative;
-  text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   align-content: space-around;
-  overflow: auto; 
 }
 
-/* smaller container column */
-.containermelody {
+/* column for services, have items list down */
+.itemservice{
+  flex: 50%;
   position: relative;
   text-align: center;
   display: flex;
@@ -285,13 +285,215 @@ form {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  align-content: space-around;
-  overflow: auto;
+  align-content: space-around; 
 }
 
-/* item property */
-.item{
+/* xboxcontroller2 */
+.imgxboxcontroller2 {
+  background-image: url("../404gear/photos/xboxcontroller2.jpg");
+  width: 100%;
+  height: auto;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* PRODUCT */
+
+/* row, have it divide to two side */
+.containerproduct {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* column left */
+.itemproduct1 {
   order: 1;
-  flex-basis: auto;
-  flex: 1 1 50%
+  flex-grow: 2;
+  flex: 30%;
+}
+
+/*column right */
+.itemproduct2 {
+  order: 2;
+  flex: 70%;
+}
+
+/* bigger container for melody page dividing to 2 */
+.conatinerbigmelody {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* brand and catageories column */
+.miniproductcolumn{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* item order 1 */
+.miniitemproduct1 {
+  order: 1;
+}
+
+/* item order 2 */
+.miniitemproduct2 {
+  order: 2;
+}
+
+/* item order 3 */
+.miniitemproduct3 {
+  order: 3;
+}
+
+#brandimg {
+  width: 30%;
+  height: auto;
+}
+
+/* MELODY65 */
+
+/* float icons right */
+#rightfloat {
+  float: right;
+}
+
+/* row, have it divide to two side */
+.containermelody1 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.itemmelody1 {
+order: 1;
+flex-grow: 2;
+flex: 70%;
+}
+
+.minicontainermelody {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#melodysmallimage {
+  width: 10%;
+  height: auto;
+}
+
+.itemmelody2 {
+order: 2;
+flex: 30%;
+}
+
+.containermelody2{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+/* buttons for melody65 customization */
+#buttons {
+  background-color: #011627;
+  border: none;
+  width: 20%;
+  color: #FFFFFF;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button .active {
+  background-color: #112E46;
+}
+
+/* styling for pre */
+.prestyle {
+  float: left;
+  font-family: 'Inconsolata';
+  font-weight: normal;
+  text-align: left;
+}
+
+/* FOOTER */
+.bottomnav{
+  overflow: hidden;
+  text-align: center
+}
+
+/*bottomnav input */
+.bottomnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-left: 80px;
+  font-size: 17px;
+  border: none;
+  background: #727272
+}
+
+/* backgreound styling */
+.bottomnav .search-container button {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: #ADADAD;
+}
+
+/* Style the search box inside the navigation bar */
+.bottomnav .search-container button:hover {
+  background: #ccc;
+}
+
+.containerfooter{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: center;
+}
+
+/* search bar and subscribe */
+.itemfootercenter{
+  order: 1;
+  flex-grow: 2;
+}
+
+/* logo and bottom nav */
+.itemfooterright{
+  order: 2;
+}
+
+/* FAQ */
+
+.rowfaq{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 30% container */
+.faq30 {
+  order: 1;
+  flex: 30%;;
+}
+
+/* 70% container */
+.faq70 {
+  order: 2;
+  flex: 70%;
 }
