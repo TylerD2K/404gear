@@ -24,11 +24,15 @@ h2 {
   font-weight: normal;
 }
 
-p {
-color: white;
-font-size: 18px;
-font-family: 'Inconsolata';
-font-weight: bold;
+#contenttext {
+  font-family: 'Inconsolata';
+  font-weight: bold;
+}
+
+#navigationtext {
+  font-size: 24px;
+  font-family: 'Inconsolata';
+  font-weight: bold;
 }
 
 /* chaange made, inconsistent w/ styleguide */
@@ -162,6 +166,46 @@ font-weight: bold;
 form {
   float:left;
   padding-left:0px;
+}
+
+/* HOME PAAGE */ 
+
+.homecontainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+}
+
+.hometop80item {
+  flex: 80%;
+}
+
+
+.hometop20column {
+  display: flex;
+  flex: 20%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hometop20item1 {
+/*add size here pls */
+}
+
+.hometop20item1 {
+/*add size here pls */
+}
+
+.homebottom30{
+
+}
+
+.homebottom70{
+
 }
 
 /* SERVICE PAGE STYLING */
