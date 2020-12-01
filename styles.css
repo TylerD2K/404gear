@@ -1,6 +1,43 @@
 body {
   margin: 0;
+<<<<<<< Updated upstream
   font-family: Arial, Helvetica, sans-serif;
+=======
+}
+
+/* styleguide size */
+h1 {
+  font-size: 36px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+}
+
+#imagetext {
+  font-size: 14px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+}
+
+/* consistent with styleguide but we will not use */
+#navigationtext {
+  font-size: 18px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+}
+
+#contenttext {
+  font-size: 18px;
+  font-family: 'Inconsolata';
+  font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 /* make logo responsive at max 400 px */
@@ -21,12 +58,14 @@ body {
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #00121e;
-  text-align: center
+  background-color: #00121E;
+  text-align: center;
+  height: auto;
 }
 
 /* Navigation links */
 .topnav a {
+<<<<<<< Updated upstream
   float: center;
   text-align: center;
   padding: 16px;
@@ -38,6 +77,11 @@ body {
   /* padding doesn't apply to top so declared outside*/
 .toppad{
   padding-top: 5px;
+=======
+  text-decoration: none;      
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+>>>>>>> Stashed changes
 }
 
 /* Add a background color on mouse-over */
@@ -55,11 +99,42 @@ body {
   float: left;
 }
 
+/*navbar links*/
+.topnav ul {
+  margin: 0;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.topnav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+}
+
+/*center links*/
+.topnav li #center-right {
+  margin-right: 150px;
+}
+
+/*right links*/
+.topnav li #right {
+  float: right;
+}
+
+.rightnav-links {
+  float: right;
+}
+
 /* text input */
 .topnav input[type=text] {
   padding: 6px;
   margin-top: 8px;
-  margin-left: 80px;
+  margin-left: 20px;
   font-size: 17px;
   border: none;
   background: #727272
@@ -70,7 +145,8 @@ body {
   float: right;
   padding: 6px 10px;
   margin-top: 8px;
-  margin-right: 16px;
+  margin-bottom: 8px;
+  margin-left: 5px;
   font-size: 17px;
   border: none;
   cursor: pointer;
@@ -99,6 +175,115 @@ body {
   text-align: center
 }
 
+<<<<<<< Updated upstream
+=======
+form {
+  float:left;
+  padding-left:0px;
+}
+
+/* SERVICE PAGE STYLING */
+
+/* row for services, have 2 boxes beside each other */
+.containerservice{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+}
+
+/* column for services, have items list down */
+.itemservice{
+  flex: 50%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around; 
+  background-color: #00121E;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* item2 */
+.item2 {
+  background-image: url("../404gear/photos/xboxcontroller2.jpg");
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* item3 */
+.item3 {
+  background-image: url("../404gear/photos/keycult.jpg");
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* item4 */
+.item4 {
+  background-image: url("../404gear/photos/cable2.jpg");
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* item5 */
+.item5 {
+  background-image: url("../404gear/photos/micepaint.jpg");
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* item6 */
+.item6 {
+  background-image: url("../404gear/photos/keycap.jpg");
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* item7 */
+.item7 {
+  background-image: url("../404gear/photos/console.jpg");
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+>>>>>>> Stashed changes
 /* bigger container for melody page dividing to 2 */
 .conatinerbigmelody {
   position: relative;
