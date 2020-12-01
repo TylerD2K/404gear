@@ -1,6 +1,47 @@
-body {
+/* remove margin */
+body, main {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styleguide size */
+h1 {
+  font-size: 36px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+}
+
+#imagetext {
+  font-size: 14px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+}
+
+/* chaange made, inconsistent w/ styleguide */
+#linktext {
+  font-size: 24px;
+  font-family: 'Inconsolata';
+  font-weight: normal;  
+}
+
+/* consistent with styleguide but we will not use */
+#navigationtext {
+  font-size: 18px;
+  font-family: '8BITWONDERNominal';
+  font-weight: normal;
+}
+
+#contenttext {
+  font-size: 18px;
+  font-family: 'Inconsolata';
+  font-weight: bold;
 }
 
 /* make logo responsive at max 400 px */
@@ -31,7 +72,6 @@ body {
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  font-size: 24px;
   left: 80%;       
 }
 
@@ -99,6 +139,32 @@ body {
   text-align: center
 }
 
+/* row for services, have 2 boxes beside each other */
+.containerservice{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  overflow: auto; 
+}
+
+/* column for services, have items list down */
+.itemservice{
+  flex: 50%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  overflow: auto; 
+}
+
 /* bigger container for melody page dividing to 2 */
 .conatinerbigmelody {
   position: relative;
@@ -123,6 +189,7 @@ body {
   align-items: center;
   align-content: space-around;
   overflow: auto;
+  background-color: #00121E;
 }
 
 /* item property */
@@ -131,3 +198,4 @@ body {
   flex-basis: auto;
   flex: 1 1 50%
 }
+
