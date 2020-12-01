@@ -41,7 +41,7 @@ h2 {
 #contenttext {
   font-size: 18px;
   font-family: 'Inconsolata';
-  font-weight: normal;
+  font-weight: bold;
 }
 
 /* make logo responsive at max 400 px */
@@ -68,16 +68,9 @@ h2 {
 
 /* Navigation links */
 .topnav a {
-  float: center;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-  left: 80%;
-}
-
-  /* padding doesn't apply to top so declared outside*/
-.toppad{
-  padding-top: 5px;
+  text-decoration: none;      
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
 }
 
 /* Add a background color on mouse-over */
@@ -139,7 +132,12 @@ h2 {
   text-align: center
 }
 
-/* SERVICE PAGE */
+form {
+  float:left;
+  padding-left:0px;
+}
+
+/* SERVICE PAGE STYLING */
 
 /* row for services, have 2 boxes beside each other */
 .containerservice{
@@ -199,8 +197,10 @@ h2 {
   flex: 70%;
 }
 
-/* brand and catageories row */
-.miniproductrow{
+/* bigger container for melody page dividing to 2 */
+.conatinerbigmelody {
+  position: relative;
+  text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
