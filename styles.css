@@ -139,6 +139,8 @@ h2 {
   text-align: center
 }
 
+/* SERVICE PAGE STYLING */
+
 /* row for services, have 2 boxes beside each other */
 .containerservice{
   position: relative;
@@ -161,8 +163,18 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  align-content: space-around;
-  overflow: auto; 
+  align-content: space-around; 
+}
+
+/* xboxcontroller2 */
+.imgxboxcontroller2 {
+  background-image: url("../404gear/photos/xboxcontroller2.jpg");
+  width: 100%;
+  height: auto;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 /* bigger container for melody page dividing to 2 */
