@@ -38,7 +38,7 @@ h2 {
   font-weight: normal;
 }
 
-#contenttext {
+p {
   font-size: 18px;
   font-family: 'Inconsolata';
   font-weight: normal;
@@ -350,4 +350,25 @@ align-content: center;
 /* logo and bottom nav */
 .itemfooterright{
   order: 2;
+}
+
+/* FAQ */
+
+.rowfaq{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 30% container */
+.faq30 {
+  order: 1;
+  flex: 30%;;
+}
+
+/* 70% container */
+.faq70 {
+  order: 2;
+  flex: 70%;
 }
