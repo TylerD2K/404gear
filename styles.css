@@ -116,6 +116,11 @@ footer {
   float: left;
 }
 
+#searchcontaincenter {
+  display: inline-block;
+  align-content: center;
+}
+
 /*navbar links*/
 .topnav ul {
   margin: 0;
@@ -200,6 +205,7 @@ form {
 /* HOME PAGE */
 
 .homecontainer {
+  margin-top: 20px;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -207,6 +213,7 @@ form {
   justify-content: space-evenly;
   align-items: center;
   align-content: space-around;
+  background-color: #00121E;
 }
 
 .hometop80item {
@@ -683,6 +690,7 @@ flex-wrap: wrap;
 #melodysmallimage {
   width: 10%;
   height: auto;
+  margin-left: 5%;
 }
 
 .itemmelody2 {
@@ -691,7 +699,7 @@ flex: 30%;
 }
 
 .itemmelody3 {
-  flex: 805
+  flex: 80%;
 }
 
 .containermelody2{
@@ -729,7 +737,8 @@ button .active {
 /* FOOTER */
 .bottomnav{
   overflow: hidden;
-  text-align: center
+  text-align: center;
+  align-content: center;
 }
 
 /*bottomnav input */
