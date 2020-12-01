@@ -24,17 +24,18 @@ h2 {
   font-weight: normal;
 }
 
+p #contenttext {
+color: white;
+font-size: 18px;
+font-family: 'Inconsolata';
+font-weight: bold;
+}
+
 /* chaange made, inconsistent w/ styleguide */
 #linktext {
   font-size: 24px;
   font-family: 'Inconsolata';
   font-weight: normal;  
-}
-
-p {
-  font-size: 18px;
-  font-family: 'Inconsolata';
-  font-weight: bold;
 }
 
 /* make logo responsive at max 400 px */
