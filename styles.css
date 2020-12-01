@@ -1,8 +1,5 @@
 body {
   margin: 0;
-<<<<<<< Updated upstream
-  font-family: Arial, Helvetica, sans-serif;
-=======
 }
 
 /* styleguide size */
@@ -37,7 +34,6 @@ h2 {
   font-size: 18px;
   font-family: 'Inconsolata';
   font-weight: bold;
->>>>>>> Stashed changes
 }
 
 /* make logo responsive at max 400 px */
@@ -65,23 +61,9 @@ h2 {
 
 /* Navigation links */
 .topnav a {
-<<<<<<< Updated upstream
-  float: center;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-  font-size: 24px;
-  left: 80%;       
-}
-
-  /* padding doesn't apply to top so declared outside*/
-.toppad{
-  padding-top: 5px;
-=======
   text-decoration: none;      
   font-family: 'Inconsolata', monospace;
   font-size: 24px;
->>>>>>> Stashed changes
 }
 
 /* Add a background color on mouse-over */
@@ -175,8 +157,6 @@ h2 {
   text-align: center
 }
 
-<<<<<<< Updated upstream
-=======
 form {
   float:left;
   padding-left:0px;
@@ -283,7 +263,6 @@ form {
   position: relative;
 }
 
->>>>>>> Stashed changes
 /* bigger container for melody page dividing to 2 */
 .conatinerbigmelody {
   position: relative;
